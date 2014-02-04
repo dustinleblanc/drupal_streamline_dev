@@ -21,9 +21,9 @@ function drupal_streamline_dev_page_build(&$page) {
   $guard_livereload_js = Guzzle::get($guard_livereload_js_uri);
 
   // If there is a copy, guard is running and we should add the livereload.js script
-  if ($guard_livereload_js->code == 200) {
-    $page['#attached']['js'][$guard_livereload_js_uri] = array('every_page' => TRUE);
-  }
+  // if ($guard_livereload_js->code == 200) {
+  //   $page['#attached']['js'][$guard_livereload_js_uri] = array('every_page' => TRUE);
+  // }
 }
 
 /**

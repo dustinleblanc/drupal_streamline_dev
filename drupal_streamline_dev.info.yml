@@ -1,9 +1,8 @@
 name : Drupal Streamline Development
 description : Container for development utilities
 core : 8.x
-hidden : FALSE
+# hidden : TRUE
 package : Drupal Streamline Dev
-php : 5.2.4
 version : 8.x-1.0
 type : module
 
