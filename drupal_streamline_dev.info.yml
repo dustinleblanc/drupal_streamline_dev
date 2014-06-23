@@ -1,5 +1,5 @@
 name : Drupal Streamline Development
-description : Container for development utilities
+description : 'Container for development utilities'
 core : 8.x
 # hidden : TRUE
 package : Drupal Streamline Dev
